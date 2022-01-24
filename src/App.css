@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: linear-gradient(to top, #33ccff 0%, #2f6ed3 100%);
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  user-select: none;
+}
+
+.homepage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 50vw;
+  height: 50vh;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  position: relative;
+  border-radius: 1rem;
+}
+
+.homepage > .button {
+  background: rgba(0, 132, 255, 0.685);
+  color: #000;
+  font-size: 1.25rem;
+  padding: 0.5rem;
+  margin: 1rem;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  border: 1px solid rgba(31, 38, 135, 0.021);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+}
+
+.login {
+  width: 400px;
+  border-radius: 1.2rem;
+  padding: 1rem;
+  align-items: center;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.login > input {
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  color: #1d2129;
+  margin: 1rem;
+  padding: 0.5rem 0.75rem;
+  width: 92%;
+  font-size: 1.2rem;
+  background: rgba(255, 255, 255, 0.432);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+}
+
+.login > .button {
+  background: rgba(0, 132, 255, 0.685);
+  color: #000;
+  font-size: 1.25rem;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  border: 1px solid rgba(31, 38, 135, 0.021);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+}
+
+.register {
+  width: 400px;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 1.2rem;
+  padding: 1rem;
+  align-items: center;
+  text-align: center;
+}
+
+.register > input {
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  color: #000000;
+  margin: 1rem 0;
+  padding: 0.5rem 0.75rem;
+  width: 92%;
+  font-size: 1.2rem;
+  background: rgba(255, 255, 255, 0.432);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+}
+
+.register > .button {
+  background: rgba(0, 132, 255, 0.685);
+  border: none;
+  color: #000;
+  font-size: 1.25rem;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  border: 1px solid rgba(31, 38, 135, 0.021);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+}
